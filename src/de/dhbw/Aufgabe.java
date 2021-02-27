@@ -1,8 +1,10 @@
 package de.dhbw;
 
+import java.time.LocalDateTime;
+
 public class Aufgabe {
   private String description;
-  private Datum todoUntil;
+  private LocalDateTime todoUntil;
 
   public String getDescription()
   {
@@ -14,12 +16,12 @@ public class Aufgabe {
     this.description = description;
   }
 
-  public Datum getTodoUntil()
+  public LocalDateTime getTodoUntil()
   {
     return todoUntil;
   }
 
-  public void setTodoUntil(Datum datum)
+  public void setTodoUntil(LocalDateTime datum)
   {
     todoUntil = datum;
   }
