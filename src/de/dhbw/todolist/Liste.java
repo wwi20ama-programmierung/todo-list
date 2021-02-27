@@ -1,4 +1,4 @@
-package de.dhbw;
+package de.dhbw.todolist;
 
 import java.util.ArrayList;
 

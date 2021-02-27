@@ -1,6 +1,6 @@
-package de.dhbw;
+package de.dhbw.todolist;
 
-public class Programm {
+public class TodoList {
 
     public static void main(String[] args) {
 	// write your code here

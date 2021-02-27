@@ -1,9 +1,9 @@
 SRCDIR = src
 BUILDDIR = build
-PKGDIR = de/dhbw
-PKG = de.dhbw
-MAINCLASS = Programm
-SOURCES = Aufgabe.java Benutzer.java Liste.java Programm.java
+PKGDIR = de/dhbw/todolist
+PKG = de.dhbw.todolist
+MAINCLASS = TodoList
+SOURCES = Aufgabe.java Benutzer.java Liste.java TodoList.java
 CLASSES := $(patsubst %.java, %.class, $(SOURCES))
 SOURCEFILES := $(patsubst %.java, $(SRCDIR)/$(PKGDIR)/%.java, $(SOURCES))
 
