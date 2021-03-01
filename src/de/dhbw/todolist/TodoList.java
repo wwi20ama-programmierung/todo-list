@@ -24,5 +24,10 @@ public class TodoList {
       a4.setDescription("Job suchen");
       
       l1.addAufgabe(a1);
+      l1.addAufgabe(a2);
+      l1.addAufgabe(a3);
+      l1.addAufgabe(a4);
+
+      System.out.println(l1);
     }
 }
