@@ -39,16 +39,29 @@ Ergänzen Sie Funktionen, die Sie für sinnvoll halten und/oder refaktorieren Si
 vorhandene Funktionen.
 
 ### Erweiterung der `Aufgabe` um weitere Eigenschaften
-**Aufgabe:**
+**Aufgabe**:
 Fügen Sie weitere Eigenschaften zu den Aufgaben hinzu. Beispiele:
 - Tags, nach denen sortiert oder gefiltert werden kann.
 - Prioritäten (z.B. "Wichtig"/"Unwichtig")
 - "erledigt"-Marker
 
 ### Methode zum Suchen einer Aufgabe hinzufügen
+**Aufgabe**:
+Fügen Sie eine Methode zur Klasse `Liste` hinzu, die es ermöglicht, eine Aufgabe anhand ihrer `description` zu suchen.
+Die Methode soll also einen String erwarten und das entsprechende `Aufgabe`-Objekt zurückliefern.
+
+Weitere Möglichkeiten:
+- Falls Sie weitere Eigenschaften zur `Aufgabe` hinzugefügt haben, wie z.B. Tags, Kategorien oder eine Kurzbeschreibung der Aufgabe haben, können Sie auch danach suchen lassen.
+- Eine weitere Suchmöglichkeit wäre, nicht nach einem kompletten Beschreibungstext zu suchen, sondern nach einer Aufgabe, deren Beschreibung mit dem gegebenen String anfängt oder in der der String vorkommt.
+
+### Weitere Konstruktoren
+**Aufgabe**:
+Fügen Sie weitere Konstruktoren hinzu, mit denen bei der Erstellung von Aufgaben-Objekten ggf. direkt Beschreibung und/oder Fälligkeitsdatum angegeben werden können.
 
 ### `toString()` erweitern, damit sie auch Daten anzeigt
-
+**Aufgabe**:
+Erweitern Sie die `toString()`-Funktion von `Aufgabe`, damit sie auch das Fälligkeitsdatum anzeigt.
+- Ggf. sollte die Funktion auch damit klarkommen, wenn es kein Fälligkeitsdatum gibt.
 
 <a name="zusatzaufgaben"></a>
 ## Zusatzaufgaben
