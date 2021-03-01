@@ -7,6 +7,11 @@ public class Liste {
   private Benutzer owner;
   private ArrayList<Aufgabe> tasks;
 
+  public Liste()
+  {
+    tasks = new ArrayList<Aufgabe>();
+  }
+
   public void setName(String name)
   {
     this.name = name;
