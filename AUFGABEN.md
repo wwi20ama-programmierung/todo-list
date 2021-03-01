@@ -15,23 +15,6 @@ in der Vorlesung ergeben, die auch sofort gelöst werden.
 Diese Aufgaben in diesem Abschnitt sollten zu dem Zeitpunkt, zu dem sie hier auftauchen, im Großen und Ganzen mit
 jeweils aktuellen Kenntnisstand aus der Vorlesung lösbar sein.
 
-### Programmabsturz beheben
-Das derzeitige Programm enthält die Basis-Implementierung aller Klassen und einen Beispiel-Ablauf
-in der `main()`, der demonstriert, wie das Hinzufügen von Aufgaben zur Liste gedacht ist.
-Das Programm compiliert, stürzt aber beim Ausführen ab, weil die Klassen nicht sauber initialisiert
-werden.
-
-**Aufgabe**: Schreiben Sie Konstruktoren für alle Klassen, die alle Attribute initialisieren.
-
-### Anzeige/String-Ausgabe von Listen und Aufgaben
-Das derzeitige Programm erstellt Aufgaben und fügt sie zur Liste hinzu.
-Es ermöglicht aber noch nicht, die Liste auch auf dem Bildschirm auszugeben.
-Dies wäre eine wesentliche Voraussetzung, um aus der Ansammlung von Klassen
-ein benutzbares Programm zu machen.
-
-**Aufgabe**:
-Fügen Sie Methoden `toString()` zu den Klassen `Liste` und `Aufgabe` hinzu,
-damit Listen- und Aufgaben-Objekte mittels `System.out.println()` ausgegeben werden können.
 
 ### Benutzbares Programm erstellen
 Wenn das Programm nicht mehr abstürzt, ist es an der Zeit, ein Hauptprogramm zu erstellen,
@@ -61,6 +44,10 @@ Fügen Sie weitere Eigenschaften zu den Aufgaben hinzu. Beispiele:
 - Tags, nach denen sortiert oder gefiltert werden kann.
 - Prioritäten (z.B. "Wichtig"/"Unwichtig")
 - "erledigt"-Marker
+
+### Methode zum Suchen einer Aufgabe hinzufügen
+
+### `toString()` erweitern, damit sie auch Daten anzeigt
 
 
 <a name="zusatzaufgaben"></a>
@@ -109,4 +96,21 @@ Sie sollten sich also ein Testprogramm schreiben, das die Tests automatisiert.
 
 <a name="erledigte-aufgaben"></a>
 ## Erledigte Aufgaben
-- Noch nichts geschafft :-(
+
+### Programmabsturz beheben
+Das derzeitige Programm enthält die Basis-Implementierung aller Klassen und einen Beispiel-Ablauf
+in der `main()`, der demonstriert, wie das Hinzufügen von Aufgaben zur Liste gedacht ist.
+Das Programm compiliert, stürzt aber beim Ausführen ab, weil die Klassen nicht sauber initialisiert
+werden.
+
+**Aufgabe**: Schreiben Sie Konstruktoren für alle Klassen, die alle Attribute initialisieren.
+
+### Anzeige/String-Ausgabe von Listen und Aufgaben
+Das derzeitige Programm erstellt Aufgaben und fügt sie zur Liste hinzu.
+Es ermöglicht aber noch nicht, die Liste auch auf dem Bildschirm auszugeben.
+Dies wäre eine wesentliche Voraussetzung, um aus der Ansammlung von Klassen
+ein benutzbares Programm zu machen.
+
+**Aufgabe**:
+Fügen Sie Methoden `toString()` zu den Klassen `Liste` und `Aufgabe` hinzu,
+damit Listen- und Aufgaben-Objekte mittels `System.out.println()` ausgegeben werden können.
