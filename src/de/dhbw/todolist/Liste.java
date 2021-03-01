@@ -25,4 +25,16 @@ public class Liste {
   {
     tasks.add(aufgabe);
   }
+
+  public String toString()
+  {
+    String ergebnis = name + "\n";
+    for (Aufgabe task : tasks)
+    {
+      ergebnis += "  ";
+      ergebnis += task.toString();
+      ergebnis += "\n";
+    }
+    return ergebnis;
+  }
 }
