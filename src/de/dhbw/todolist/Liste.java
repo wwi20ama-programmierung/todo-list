@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Liste {
   private String name;
-  private Benutzer owner;
   private ArrayList<Aufgabe> tasks;
 
   public Liste()
