@@ -25,4 +25,9 @@ public class Aufgabe {
   {
     todoUntil = datum;
   }
+
+  public String toString()
+  {
+    return description;
+  }
 }
