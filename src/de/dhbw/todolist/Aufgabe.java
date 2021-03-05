@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 public class Aufgabe {
   private String description;
   private LocalDateTime todoUntil;
+  private Priority priority;
   private LocalDateTime doneTimestamp = null; // null bedeutet "nicht erledigt"
 
   public String getDescription()
@@ -25,6 +26,14 @@ public class Aufgabe {
   public void setTodoUntil(LocalDateTime datum)
   {
     todoUntil = datum;
+  }
+
+  public Priority getPriority() {
+    return this.priority;
+  }
+
+  public void setPriority(Priority priority) {
+    this.priority = priority;
   }
 
   public void setDone() {

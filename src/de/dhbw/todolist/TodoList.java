@@ -12,15 +12,19 @@ public class TodoList {
 
       // Aufgaben hinzufügen.
       Aufgabe a1 = new Aufgabe();
+      a1.setPriority(Priority.VERY_HIGH);
       a1.setDescription("Im Lotto gewinnen");
 
       Aufgabe a2 = new Aufgabe();
+      a1.setPriority(Priority.LOW);
       a2.setDescription("Dem Chef auf den Tisch ka...");
 
       Aufgabe a3 = new Aufgabe();
+      a1.setPriority(Priority.VERY_HIGH);
       a3.setDescription("Geld ausgeben");
 
       Aufgabe a4 = new Aufgabe();
+      a1.setPriority(Priority.VERY_LOW);
       a4.setDescription("Job suchen");
       
       l1.addAufgabe(a1);
