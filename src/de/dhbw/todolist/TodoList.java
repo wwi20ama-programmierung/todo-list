@@ -34,5 +34,10 @@ public class TodoList {
 
       // Erwartung: Aufgabe 2 nicht mehr angezeigt
       System.out.println(l1);
+
+      a4.setDone();
+
+      // Erwartung: Aufgabe 4 ist erledigt
+      System.out.println(l1);
     }
 }
