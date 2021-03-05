@@ -26,6 +26,10 @@ public class Liste {
     tasks.add(aufgabe);
   }
 
+  public void deleteAufgabe(Aufgabe aufgabe) {
+    tasks.remove(aufgabe);
+  }
+
   public String toString()
   {
     String ergebnis = name + "\n";

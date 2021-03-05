@@ -29,5 +29,10 @@ public class TodoList {
       l1.addAufgabe(a4);
 
       System.out.println(l1);
+
+      l1.deleteAufgabe(a2);
+
+      // Erwartung: Aufgabe 2 nicht mehr angezeigt
+      System.out.println(l1);
     }
 }
