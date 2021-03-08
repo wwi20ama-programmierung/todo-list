@@ -34,7 +34,32 @@ public class Liste {
      * @return
      */
     public Aufgabe searchByDescription(String such) {
+        for (int i = 0; i < this.tasks.size(); i++) {
+            Aufgabe aufgabe = this.tasks.get(i);
+
+            if (aufgabe.getDescription().contains(such)) {
+                return aufgabe;
+            }
+        }
         return null;
+    }
+
+    /**
+     * Gibt den Index der Aufgabe in der "tasks"-Liste zurück, wenn der String "such" ein Teil der
+     * Aufgabenbeschreibung ist, ansonsten -1.
+     *
+     * @param such
+     * @return
+     */
+    public int searchByDescriptionAndReturnIndex(String such) {
+        for (int i = 0; i < this.tasks.size(); i++) {
+            Aufgabe aufgabe = this.tasks.get(i);
+
+            if (aufgabe.getDescription().contains(such)) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     /**
