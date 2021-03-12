@@ -3,7 +3,7 @@ BUILDDIR = build
 PKGDIR = de/dhbw/todolist
 PKG = de.dhbw.todolist
 MAINCLASS = TodoList
-SOURCES = Aufgabe.java Liste.java TodoList.java
+SOURCES = Aufgabe.java Liste.java TodoList.java Priority.java Tag.java Color.java
 CLASSES := $(patsubst %.java, %.class, $(SOURCES))
 SOURCEFILES := $(patsubst %.java, $(SRCDIR)/$(PKGDIR)/%.java, $(SOURCES))
 

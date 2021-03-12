@@ -12,7 +12,7 @@ in der Vorlesung ergeben, die auch sofort gelöst werden.
 
 <a name="aktuelle-aufgaben"></a>
 ## Aktuelle Aufgaben
-Diese Aufgaben in diesem Abschnitt sollten zu dem Zeitpunkt, zu dem sie hier auftauchen, im Großen und Ganzen mit
+Die Aufgaben in diesem Abschnitt sollten zu dem Zeitpunkt, zu dem sie hier auftauchen, im Großen und Ganzen mit
 jeweils aktuellen Kenntnisstand aus der Vorlesung lösbar sein.
 
 
